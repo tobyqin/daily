@@ -10,7 +10,7 @@ content = Path('data.json').read_text(encoding='utf8')
 
 db = client.learn
 
-for name in ('xiaoshimin', 'phil', 'eli'):
+for name in ('test', 'phil', 'eli'):
     for i in range(10000):
         data = json.loads(content)
         data['index'] = 1
