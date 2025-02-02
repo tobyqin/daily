@@ -4,7 +4,7 @@ from datetime import datetime
 import json
 from pathlib import Path
 
-client = MongoClient('mongodb://49.235.188.214:2368')
+client = MongoClient('mongodb://localhost:27017')
 
 content = Path('data.json').read_text(encoding='utf8')
 
