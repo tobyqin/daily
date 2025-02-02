@@ -10,5 +10,26 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+# ignore system cache and files
+.DS_Store
+.cache/
+Thumbs.db
+*.log
+*.swp
+*~
+.env
+tmp/
 
+# IDE configurations
+.idea/
+.vscode/
+*.iml
+*.iws
+.vs/
+*.sublime-workspace
+*.sublime-project
+.project
+.settings/
+.classpath
+.factorypath
 
